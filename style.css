@@ -1,0 +1,83 @@
+body
+
+{
+font-family: sans-serif; color:white;
+background: url(vas.jpg);
+background-attachment: fixed;
+background-size: cover;    
+        
+}
+.login
+{
+background-color:rgba(44,54,85,0.7);
+    width: 38%;
+    margin-left: 30%;
+    padding-bottom: 20px;
+}
+h2
+{
+font-size: 30px;    
+background: rgba(44,54,85,0.7);
+padding: 25px;
+margin:auto;
+width: 200px;
+height: auto;
+margin-top: 150px;
+margin-left: auto;
+margin-right:auto;     
+}
+form
+{
+width: 380px;
+margin: auto;
+text-align: center;
+background-color:rgba(0.6);     
+}
+input
+{
+ width: 150;
+    text-align: center;
+    background: transparent;
+    border-bottom: 1px solid #ffff;
+    font-family: 'play' sans-serif;
+    padding: 19px;
+    color: #fff;
+    outline:1px solid white;
+    height: 20%;
+ 
+}
+.login input[type="text"]
+{
+border: none;
+    width: 200;
+    font-size: 15px;
+    line-height: normal;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 5px;
+}
+.login input[type="submit"]
+{
+   width:20%;
+    padding:10px;
+    font-size:18px;
+    background:blue;
+    cursor:pointer;
+    outline-color:1px soild white;
+    margin-left:auto;
+}
+.login input:hover[type="submit"]
+{
+    color: black;
+    background: grey;
+}
+a:hover
+{
+color: white;
+    margin-left:2%;
+}
+::placeholder
+{
+color:red;   
+}
+

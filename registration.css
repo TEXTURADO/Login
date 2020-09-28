@@ -1,0 +1,101 @@
+body
+{
+	background-image:url(ima.jpg.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
+.header
+{
+
+font-family: sans-serif;
+}
+.header ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: blue;
+	margin-left: 700px;
+}
+.header ul li
+{
+width:80px;
+padding-left: 20px;
+
+}
+.container
+{
+	width: 500px;
+	height: 430px;
+	border: 5px solid;
+	border-color: white;
+	padding-top:none;
+	margin-left:350px;
+	padding-bottom:none;
+	background-color:none;
+	backface-visibility: transparent;
+	margin-top:40px;
+	
+}
+.box
+{
+	width:490px;
+	height: 50px;
+	background:white;
+	font-size: 40px;
+    padding-top:5px;
+    padding-left:60px;
+    text-align:center; 
+}
+.box h2
+{
+	font-size: 40px;
+	margin-top: 10px;
+}
+.container div
+{
+	margin-left:none;
+	border:1px;
+	padding: 5px;
+	font-size: 15px;
+	font-family: sans-serif;color:blue;
+
+
+}
+.container input[type="text"]
+{
+font-size:15px;
+width: 140px;
+height: 20px;
+border: 2PX solid;
+ border-color:black;
+
+ 
+
+}
+.container button 
+{
+	width: 20%;
+	height: 30px;
+font-size: 15px;
+margin-left: 200px;
+border: 3px solid;
+margin-top:5px;
+border-radius: 20px;
+cursor: pointer;
+transition: all 0.5s;
+box-shadow:0 5px #666;
+background-color:red;
+text-transform: uppercase;
+}
+.container p
+{
+	margin-left:150px;
+	color: red;
+}
+
+
+
+
+
+
